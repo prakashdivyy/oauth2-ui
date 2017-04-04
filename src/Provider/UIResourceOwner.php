@@ -27,7 +27,7 @@ class UIResourceOwner implements ResourceOwnerInterface
     }
 
     /**
-     * Get user id
+     * Get user ID SIAK
      *
      * @return string|null
      */
@@ -37,11 +37,11 @@ class UIResourceOwner implements ResourceOwnerInterface
     }
 
     /**
-     * Get user name
+     * Get user Nama
      *
      * @return string|null
      */
-    public function getName()
+    public function getNama()
     {
         return $this->getResponseData('siak_nama');
     }
@@ -57,13 +57,43 @@ class UIResourceOwner implements ResourceOwnerInterface
     }
 
     /**
-     * Get user kode organisasi
+     * Get user Kode Organisasi
      *
      * @return string|null
      */
     public function getKdOrg()
     {
         return $this->getResponseData('siak_kd_org');
+    }
+
+    /**
+     * Get user ldap_dn
+     *
+     * @return string|null
+     */
+    public function getLdapDn()
+    {
+        return $this->getResponseData('ldap_dn');
+    }
+
+    /**
+     * Get user ldap_sn
+     *
+     * @return string|null
+     */
+    public function getLdapSn()
+    {
+        return $this->getResponseData('ldap_sn');
+    }
+
+    /**
+     * Get user is active or not
+     *
+     * @return string|null
+     */
+    public function isActiveUser()
+    {
+        return $this->getResponseData('siak_is_active');
     }
 
     /**
