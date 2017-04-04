@@ -1,0 +1,24 @@
+{
+  "name": "q5studio/oauth2-ui",
+  "description": "UI OAuth2-Server Client Provider for The PHP League OAuth2-Client",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "authorization",
+    "authentication",
+    "idp",
+    "identity",
+    "sso",
+    "single sign on",
+    "ui"
+  ],
+  "license": "MIT",
+  "require": {
+    "league/oauth2-client": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Q5Studio\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
