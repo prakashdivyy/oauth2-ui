@@ -1,5 +1,5 @@
 {
-  "name": "q5studio/oauth2-ui",
+  "name": "prakashdivyy/oauth2-ui",
   "description": "UI OAuth2-Server Client Provider for The PHP League OAuth2-Client",
   "keywords": [
     "oauth",
@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Q5Studio\\OAuth2\\Client\\": "src/"
+      "PrakashDivy\\OAuth2\\Client\\": "src/"
     }
   }
 }
