@@ -1,6 +1,6 @@
 <?php
 
-namespace Q5Studio\OAuth2\Client\Provider\Exception;
+namespace PrakashDivy\OAuth2\Client\Provider\Exception;
 
 /**
  * Exception thrown if the provider is configured improperly.

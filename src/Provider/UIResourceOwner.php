@@ -1,6 +1,6 @@
 <?php
 
-namespace Q5Studio\OAuth2\Client\Provider;
+namespace PrakashDivy\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Tool\ArrayAccessorTrait;

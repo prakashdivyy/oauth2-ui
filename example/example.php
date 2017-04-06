@@ -2,7 +2,7 @@
 
 require "vendor/autoload.php";
 
-$provider = new Q5Studio\OAuth2\Client\Provider\UI([
+$provider = new PrakashDivy\OAuth2\Client\Provider\UI([
     'clientId' => 'CLIENT_ID',
     'clientSecret' => 'CLIENT_SECRET',
     'redirectUri' => 'REDIRECT_URL'
