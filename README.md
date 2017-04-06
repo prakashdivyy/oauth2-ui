@@ -6,7 +6,7 @@ To install, add this on composer.json:
 
     { 
         "require": {
-            "q5studio/oauth2-ui": "*"
+            "prakashdivyy/oauth2-ui": "*"
         }
     }
     
