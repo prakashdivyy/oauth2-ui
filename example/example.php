@@ -27,5 +27,17 @@ echo "Nama : " . $user->getNama() . "<br>";
 // Get NPM
 echo "NPM : " . $user->getNPM() . "<br>";
 
+// Get Angkatan
+echo "Angkatan : " . $user->getAngkatan() . "<br>";
+
 // Get Kode Organisasi
 echo "Kode Organisasi : " . $user->getKdOrg() . "<br>";
+
+// Get Fakultas
+echo "Fakultas : " . $user->getFakultas() . "<br>";
+
+// Get Prodi
+echo "Prodi : " . $user->getProdi() . "<br>";
+
+// Get Jenjang
+echo "Jenjang : " . $user->getJenjang() . "<br>";

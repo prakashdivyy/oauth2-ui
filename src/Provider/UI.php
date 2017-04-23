@@ -97,6 +97,6 @@ class UI extends AbstractProvider
      */
     protected function createResourceOwner(array $response, AccessToken $token)
     {
-        return new UIResourceOwner($response);
+        return new UIResourceOwner($response, $token);
     }
 }
