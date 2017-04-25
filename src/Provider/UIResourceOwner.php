@@ -33,9 +33,8 @@ class UIResourceOwner implements ResourceOwnerInterface
     public function __construct(array $response = array(), AccessToken $token)
     {
         $this->response = $response;
-        $ip = array_key_exists('SERVER_ADDR', $_SERVER) ? $_SERVER['SERVER_ADDR'] : $_SERVER['LOCAL_ADDR'];
         $header = array();
-        $header[] = 'Authorization: Bearer ' . $token . '-' . $ip;
+        $header[] = 'Authorization: Bearer ' . $token . '-' . $_SERVER['REMOTE_ADDR'];
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, "https://sso.ui.ac.id/rest/api/web/v1/mahasiswa/info");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
